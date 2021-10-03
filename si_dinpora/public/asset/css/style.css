@@ -1,0 +1,294 @@
+/* NAvbar Active */
+li.active {
+    background: rgb(169, 197, 48, 0.1);
+}
+
+/* Tittle Logo Name */
+.Title-Logo h3 {
+    padding-top: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: large;
+}
+
+/* Card */
+.info-box .card {
+    border-style: solid;
+    border-color: black;
+    width: 8rem;
+    height: 7rem;
+}
+.info-box h1 {
+    margin-left: 75px;
+    font-size: 3.3rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    color: #238896;
+}
+.info-box .card .card-body h2 {
+    margin-top: 2px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+}
+.info-box .card .card-body img {
+    margin-top: 3px;
+    margin-left: 27px;
+    width: 30px;
+    height: 50px;
+}
+.info-box #card-btn .card:hover {
+    border: 4px groove #a9c530;
+}
+
+#label-prestasi .info-box {
+    width: auto;
+    height: 222rem;
+}
+#label-prestasi h4 {
+    margin-top: 1px;
+    font-size: 60px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    color: white;
+}
+#label-prestasi h3 {
+    margin-top: -13px;
+    color: darkgray;
+    font-family: "Lato", sans-serif;
+    font-size: 1.2em;
+}
+#label-prestasi img {
+    padding: 1px;
+    width: 90px;
+    height: 90px;
+    margin-top: 28px;
+    margin-left: 290px;
+}
+.card .card-body .jumlah-prestasi p {
+    margin-left: 80%;
+    font-size: 1.2em;
+}
+
+#side-bar-nav-item img {
+    margin-left: 8%;
+}
+#side-bar-nav-item p {
+    margin-left: 12px;
+    margin-top: 5px;
+    font-family: "Lato", sans-serif;
+    font-size: 12pt;
+    color: black;
+}
+
+#card-head {
+    margin-left: 51%;
+    margin-right: -1%;
+}
+/* Card Header */
+#card-head .btn-add {
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    background: #a9c530;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+#card-head .btn-add:active {
+    background: #62721c;
+}
+#card-head .btn-add .button__text,
+.button__icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 5px;
+    color: #fff;
+    height: 100%;
+}
+
+#card-head .btn-add .button__icon {
+    font-size: 1.3em;
+    margin-left: 1%;
+    margin-right: -5%;
+    color: #fff;
+}
+.delete-btn {
+    display: inline-flex;
+    height: 50px;
+    width: 90px;
+    padding: 0;
+    background: #fff;
+    border: 1.5px groove #c72629;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 15px;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.delete-btn .button__text,
+.button__icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 0px;
+
+    color: #c72629;
+    height: 100%;
+}
+.delete-btn .button__icon {
+    color: #c72629;
+    margin-left: -8px;
+}
+.export-btn {
+    display: inline-flex;
+    height: 50px;
+    width: 80px;
+    padding: 0;
+    background: #fff;
+    border: 1.4px groove #238896;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: -20px;
+    cursor: pointer;
+}
+.export-btn .button__text,
+.button__icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 0px;
+    margin-left: 5px;
+    color: #238896;
+    height: 100%;
+}
+.export-btn .button__icon {
+    margin-left: -4%;
+    color: #238896;
+}
+#card-head2 .btn-filter {
+    display: inline-flex;
+    height: 50px;
+    width: 90%;
+    padding: 0;
+    background: #fff;
+    border: 1.4px groove #a9c530;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+#card-head2 .btn-filter #button__text,
+#button__icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 10px;
+    color: #a9c530;
+    height: 100%;
+}
+
+.card .card-header h4 {
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #238896;
+}
+
+/* Btn save and cancel add data */
+/* btn save */
+.btn-save {
+    display: inline-flex;
+    height: 40px;
+    padding: 0;
+    background: #a9c530;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn-save:hover {
+    background: #62721c;
+}
+.btn-save .button__text,
+.button__icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 10px;
+    color: #fff;
+    height: 100%;
+}
+
+.btn-save .button__icon {
+    font-size: 1.3em;
+    margin-right: -5%;
+    color: #fff;
+}
+/* btn cancel */
+.btn-cancel {
+    display: inline-flex;
+    height: 40px;
+    padding: 0;
+    background: #fff;
+    border: 1.4px groove #a9c530;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn-cancel .button__text,
+.button__icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 10px;
+    color: #a9c530;
+    height: 100%;
+}
+.btn-cancel:hover {
+    background: #dedfda;
+}
+#myTable_length {
+    margin-left: 5px;
+}
+#myTable_length label {
+    font-family: "Lato", sans-serif;
+    font-size: 1.2rem;
+    display: inline-flex;
+    margin-top: 12px;
+}
+#myTable_length select {
+    margin-right: 10px;
+    margin-left: 4px;
+}
+#myTable_filter label {
+    font-family: "Lato", sans-serif;
+    margin-left: 60%;
+}
+#myTable_filter input {
+    margin-left: 1px;
+    width: 220px;
+}
+#myTable_paginate {
+    margin-left: 220px;
+}
